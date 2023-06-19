@@ -31,10 +31,10 @@ def deplacer_fichiers_par_semaine(source, destination):
         print(f"Le fichier '{fichier}' a été déplacé vers {dossier_destination_semaine}")
 
 # Chemin d'accès du répertoire source
-repertoire_source = "/chemin/vers/le/dossier/source"
+repertoire_source = "ArriveeFichier"
 
 # Chemin d'accès du dossier de destination
-dossier_destination = "/chemin/vers/le/dossier/destination"
+dossier_destination = "SortieFichier"
 
 # Appeler la fonction pour déplacer les fichiers
 deplacer_fichiers_par_semaine(repertoire_source, dossier_destination)
