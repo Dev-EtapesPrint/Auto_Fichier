@@ -2,6 +2,23 @@ import os
 import shutil
 import datetime
 
+#  _____            _                                       
+# (  _  )          ( )                                      
+# | (_) |      ___ | |__     _ _   ___     __     __   _ __ 
+# |  _  |    /'___)|  _ `\ /'_` )/' _ `\ /'_ `\ /'__`\( '__)
+# | | | |   ( (___ | | | |( (_| || ( ) |( (_) |(  ___/| |   
+# (_) (_)   `\____)(_) (_)`\__,_)(_) (_)`\__  |`\____)(_)   
+#                                       ( )_) |             
+#                                        \___/'             
+
+# Faire en sorte de trié les fichier avant de les mettre dans les dossier de semaines 
+# Création des dossier automatiquement 
+# Respecter l'arboressance : {E:Etapes} /AUTO_PROMARKET/{CAPI;CRYOPOLE;OH}/Semaine{x}
+
+# Lancer le programme avec son "lanceur"
+
+
+
 def deplacer_fichiers_par_semaine(source, destination):
     # Obtenir la liste des fichiers dans le répertoire source
     fichiers = os.listdir(source)
