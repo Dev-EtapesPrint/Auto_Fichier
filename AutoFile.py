@@ -10,7 +10,7 @@ import datetime
 # (_) (_)   `\____)(_) (_)`\__,_)(_) (_)`\__  |`\____)(_)   
 #                                       ( )_) |             
 #                                        \___/'             
-
+# https://patorjk.com/software/taag/#p=display&f=Puffy
 # Faire en sorte de trié les fichier avant de les mettre dans les dossier de semaines 
 # Création des dossier automatiquement 
 # Respecter l'arboressance : {E:Etapes} /AUTO_PROMARKET/{CAPI;CRYOPOLE;OH}/Semaine{x}
